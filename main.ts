@@ -7,6 +7,7 @@ function doSomething () {
         cadena = cadena / 10
     }
     basic.showString("" + (Math.round(cadena)))
+    basic.showNumber(0)
     cadena = Math.round(cadena)
     return Math.round(cadena)
 }
